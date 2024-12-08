@@ -1,0 +1,34 @@
+* {
+   
+    font: 16px 'roboto';
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.smile {
+    font-size: 16rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.userface, .btn {
+    width: 80px;
+    padding: 10px;
+    border: solid black 2px;
+}
