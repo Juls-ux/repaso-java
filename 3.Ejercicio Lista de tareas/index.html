@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">AdaTask</h1>
+    </header>
+    <main>
+      <div class="block">
+        <section class="block-1">
+          <form class="form-add">
+            <input class="js_task-area add-tarea" type="text" name="text" id="text">
+            <label for="text"></label>
+            <input class="js_addbtn btn-add" type="button" value="Add">
+          </form>
+        </section>
+        <section class="block-2">
+          <form class="form-search">
+            <input class="search-text" type="text" name="text" id="text">
+            <label for="text"></label>
+            <input class="search-btn" type="button" value="Buscar">
+          </form>
+          <section class="js_task-section task-section">
+            <ul class="js_task-ul task-ul">
+            </ul>
+          </section>
+        </section>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

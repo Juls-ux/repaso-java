@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body  {
+    background-color: rgb(239, 239, 239);
+
+}
+main {
+    padding-inline: 150px;
+  
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding-block: 30px;
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-1, .block-2 {
+    background-color: white;
+    padding: 50px 50px;
+    height: auto;
+}
+
+.form-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    gap: 5px;
+}
+
+.add-tarea {
+background-color: none;
+border: solid 1px rgb(199, 199, 199);
+padding-block: 10px;
+padding-inline: 20px;
+border-radius: 5px;
+
+}
+
+.btn-add, .search-btn {
+    background-color: salmon;
+    border: solid 1px salmon;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.form-search {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+.search-text{
+background-color: none;
+border: solid 1px rgb(199, 199, 199);
+padding-block: 10px;
+padding-inline: 50px;
+border-radius: 5px;
+
+}
+
+.task-section{
+border: solid 1px rgb(199, 199, 199);
+padding-block: 10px;
+padding-inline: 20px;
+border-radius: 5px;
+text-align: left;
+list-style: none;
+
+}
+
+.task-ul {
+    list-style: none;
+}
+
