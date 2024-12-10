@@ -5,6 +5,9 @@ const taskAreaInput = document.querySelector('.js_task-area');
 const addBtn = document.querySelector('.js_addbtn');
 const taskUl = document.querySelector('.js_task-ul');
 
+const searchBtn  = document.querySelector('.js_searchbtn');
+const searchInput = document.querySelector('.js_search-input');
+
 const addTask = document.querySelector('.js_task-area');
 const taskList = document.querySelector('.js_task-list');
 
@@ -60,19 +63,20 @@ const handleClick = (ev) => {
     </li>`   
 }
 
+const searchText = tascVks.filter( (usersearch) => usersearch.name==='');
+const filterTasks = (ev) => {
+  
+    const searchText = searchInput.value; 
+    
+}
 
 // SECCION DE EVENTOS
 
     //generar evento click para agregar una tarea
     addBtn.addEventListener('click', handleClick);
 
-
-
-
-    // Registrar la tarea para agregarla a la lista
-
-
     //generar un evento click para buscar la tarea y que aparezca solo la tarea cuando se busca el nombre
+    searchBtn.addEventListener('click', filterTasks);
 
     //Reiniciar página cuando se rgistra solo el nombre
 
@@ -83,3 +87,4 @@ const handleClick = (ev) => {
 // CÓDIGO QUE SE EJECUTA AL CARGAR LA PÁGINA
 
 renderTasks();
+filterTasks();

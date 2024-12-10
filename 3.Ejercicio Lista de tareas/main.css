@@ -98,3 +98,6 @@ list-style: none;
     list-style: none;
 }
 
+.task-li, .task-ul-line {
+    text-decoration: line-through;
+}
